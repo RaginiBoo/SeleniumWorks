@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="3" name="Test(failed)">
+    <classes>
+      <class name="Com.testcase.Amazon_search_testcase">
+        <methods>
+          <include name="startup"/>
+          <include name="move"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Com.testcase.Amazon_search_testcase -->
+      <class name="Com.testcase.Amazon_Account_Testcasae">
+        <methods>
+          <include name="move"/>
+          <include name="startup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Com.testcase.Amazon_Account_Testcasae -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
